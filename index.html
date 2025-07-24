@@ -5,6 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Responsive Flowershop - PH</title>
         <script src="https://cdn.tailwindcss.com"></script>
+          <style>
+            .bgImgBloom {
+            background-image: url('./assets/deal-bloom.png');
+            }
+            .bgImgZabo{
+                background-image: url('./assets/deal-zabo.png');
+            }
+            .bgImgAna{
+                background-image: url('./assets/deal-ana.png');
+            }
+            .bgImgNews{
+                background-image: url('./assets/news-letter-bg.png');
+            }
+        </style>
     </head>
     <body class="cursor-default">
 
@@ -173,17 +187,17 @@
         <!-- Latest Deals Pics-->
         <section class="flex flex-col sm:grid sm:grid-cols-3 sm:grid-rows-2 gap-6 max-w-[800px] mx-auto mb-[120px] sm:mx-80 items-center sm:items-start">
 
-            <div class="bg-[url('./assets/deal-bloom.png')] order-1 sm:order-none h-[205px] w-[365px] sm:w-full sm:h-[205px] bg-cover bg-center bg-blend-darken bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-lg">
+            <div class="bgImgBloom order-1 sm:order-none h-[205px] w-[365px] sm:w-full sm:h-[205px] bg-cover bg-center bg-blend-darken bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-lg">
                 <p class="text-[20px] font-bold text-white">60% Off | Bloom Plant</p>
                 <p class="underline text-white">Shop Now</p>
             </div>
 
-            <div class="bg-[url('./assets/deal-zabo.png')] order-3 sm:order-none h-[205px] w-[365px] sm:h-[435px] sm:w-full sm:col-span-2 sm:row-span-4 bg-cover bg-center bg-blend-darken bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-lg">
+            <div class="bgImgZabo order-3 sm:order-none h-[205px] w-[365px] sm:h-[435px] sm:w-full sm:col-span-2 sm:row-span-4 bg-cover bg-center bg-blend-darken bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-lg">
                 <p class="text-[20px] font-bold text-white">25% Off | Zabo Plant</p>
                 <p class="underline text-white">Shop Now</p>
             </div>
 
-            <div class="bg-[url('./assets/deal-ana.png')] order-2 sm:order-none h-[205px] w-[365px] sm:w-full sm:h-[205px] bg-cover bg-center bg-blend-darken bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-lg">
+            <div class="bgImgAna order-2 sm:order-none h-[205px] w-[365px] sm:w-full sm:h-[205px] bg-cover bg-center bg-blend-darken bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-lg">
                 <p class="text-[20px] font-bold text-white">30% Off | Ana  Plant</p>
                 <p class="underline text-white">Shop Now</p>
             </div>
@@ -192,7 +206,7 @@
 
 
          <!-- Join section -->
-         <section class="bg-[url('./assets/news-letter-bg.png')] w-full h-[275px] sm:h-[530px] bg-cover bg-center flex flex-col justify-center items-center">
+         <section class="bgImgNews w-full h-[275px] sm:h-[530px] bg-cover bg-center flex flex-col justify-center items-center">
             <div class="flex flex-col justify-center items-center">
                 <p class="text-[20px] sm:text-[70px] font-bold text-white">Join the colorful Bunch</p>
                 <div class="flex">
