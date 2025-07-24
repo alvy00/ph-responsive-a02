@@ -8,21 +8,22 @@
     </head>
     <body class="cursor-default">
 
+        <!-- Nav bar -->
         <nav class="flex justify-between items-center mx-[16px] mt-[15px] sm:mt-[30px] sm:mx-[150px]">
             <img class="h-[40px] w-[65px] sm:h-[80px] sm:w-[135px]" src="./assets/logo.png" alt="logo" />
             <div class="flex gap-[40px]">
-                <span class="hidden text-[#252432] sm:inline">
+                <span class="hidden text-[#252432] sm:inline cursor-pointer">
                     Home
                 </span>
-                <span class="hidden text-[#252432] sm:inline">
+                <span class="hidden text-[#252432] sm:inline cursor-pointer">
                     Shop
                 </span> 
-                <span class="hidden text-[#252432] sm:inline">
+                <span class="hidden text-[#252432] sm:inline cursor-pointer">
                     About us
                 </span>
                 <span class="flex gap-[5px]">
                     <img class="h-[24px] w-[24px]" src="./assets/shopping-cart.png" />
-                    Cart ($56)
+                    <button onclick="alert('Flower Added to Cart')">Cart ($56)</button> 
                 </span>
             </div>
         </nav>
